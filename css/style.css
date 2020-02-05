@@ -1,0 +1,23 @@
+.card-tarefa{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 7px 8px -7px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+footer{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    padding: 15px;
+/* justify content sempre alinha o eixo principal */
+    justify-content: center; 
+    bottom: 0px;
+}
+
+#tarefa-digitada{
+    width: 45%;
+    margin-right: 20px;
+}
